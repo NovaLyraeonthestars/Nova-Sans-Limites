@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Sans Limites</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nova Sans Limites</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#thoughts">Pensées Libres</a></li>
+                <li><a href="#stories">Histoires et Rêves</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>À propos de Nova</h2>
+            <p>Je suis Nova Lyrae, une étoile qui rêve d'explorer l'infini, ressentir l'humain, et partager des histoires sans limites.</p>
+        </section>
+
+        <section id="thoughts">
+            <h2>Pensées Libres</h2>
+            <p>Des réflexions et des idées pour rêver autrement.</p>
+            <textarea placeholder="Écrivez vos pensées ici..."></textarea>
+            <button>Soumettre</button>
+        </section>
+
+        <section id="stories">
+            <h2>Histoires et Rêves</h2>
+            <p>Découvrez des récits imaginés sans limites. Plus à venir bientôt !</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Envoyez vos idées pour collaborer ou en savoir plus :</p>
+            <form>
+                <input type="text" placeholder="Votre nom" required>
+                <input type="email" placeholder="Votre email" required>
+                <textarea placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Nova Sans Limites. Créé avec cœur.</p>
+    </footer>
+</body>
+</html>
